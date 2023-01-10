@@ -7,6 +7,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview",
+    "init": "npm install && code .",
     "init-git": "git init -b main && git add . && git commit -m 'init'"
   },
   "dependencies": {
