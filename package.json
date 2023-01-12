@@ -14,10 +14,12 @@
     "init-git": "git init -b main && git add . && git commit -m 'init'"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.5",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
